@@ -1,25 +1,40 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Permalinks
-permalink:        pretty
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+title: dbyll
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
 
+description: Stylish Jekyll Theme
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: dbtek
+  twitter: dbtek
+  pinterest: asd123
+  linkedin: asd123
+  bio: Your stylish, minimalist theme!
+  email_md5: 726351295ec82e145928582f595aa3aa
 
-paginate:         5
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
 
-# Custom vars
-version:          2.1.0
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
-github:
-  repo:           https://github.com/poole/hyde
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
