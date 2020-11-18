@@ -3,7 +3,7 @@ layout: post
 title: "Project: InvoiceMe"
 categories: [general, project]
 tags: [general, project, IAC, terraform, lambda, serverless]
-fullview: false
+fullview: true
 ---
 
 _A cloud-native app to automatically generate invoices from the [Harvest](https://www.getharvest.com/) timesheet application and notify via Slack._
@@ -14,8 +14,6 @@ Creating invoices can be tricky. It requires:
  * Manually looking at the number of days worked on a timesheet application (Harvest)
  * Ensure the information is accurate (prone to human error)
  * etc.
-
-
 
 ### Enter InvoiceMe
 InvoiceMe is a python lambda function that combines static invoice data (a mix of config files and state in a dynamodb table) with the dynamic timesheet content from Harvest to produce an invoice. The lambda builds a json payload for the invoice and makes use of [invoiced](https://invoice-generator.com/#/1) to generate the PDF. This is then uploaded to S3 and a slack notification with a signed URL to the file is sent to the user. The app uses the following AWS services:
