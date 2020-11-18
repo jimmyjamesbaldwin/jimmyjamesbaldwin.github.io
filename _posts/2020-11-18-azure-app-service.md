@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Configuration
-categories: [general, setup, demo]
-tags: [demo, dbyll, dbtek, setup]
+title: "Project: Azure App Service Website IAC"
+categories: [general, project]
+tags: [general, project, IAC, ARM Templates, docker]
 fullview: true
 ---
 
-# azure-app-service-website
-An ARM template, docker-compose, and pipeline solution for building and deploying an Azure App Service website.
+_An ARM template, docker-compose, and pipeline solution for building and deploying an Azure App Service website._
 
 ### Some background
 Some background - I was initially planning on hosting my personal website on an app service site, as it makes running simple containerised application easy and requires very little management. I'm also quite involved with Azure so building everything was straightforward - however, it slipped my mind that when using the free F1 App Service plan you cannot enabled 'Always On' for the container, so the first request after a period of inactivity takes a long time to respond, which is less than ideal for a website and my domain provider wouldn't let me forward to the public endpoint as it took too long to respond...
