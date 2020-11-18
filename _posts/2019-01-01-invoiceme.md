@@ -6,10 +6,10 @@ tags: [general, project, IAC, terraform, lambda, serverless]
 fullview: false
 ---
 
-_ A cloud-native app to automatically generate invoices from the [Harvest](https://www.getharvest.com/) timesheet application and notify via Slack._
+_A cloud-native app to automatically generate invoices from the [Harvest](https://www.getharvest.com/) timesheet application and notify via Slack._
  
- ### Why
- Creating invoices can be tricky. It requires:
+### Why
+Creating invoices can be tricky. It requires:
  * Remembering to create and send the invoice in the first place
  * Manually looking at the number of days worked on a timesheet application (Harvest)
  * Ensure the information is accurate (prone to human error)

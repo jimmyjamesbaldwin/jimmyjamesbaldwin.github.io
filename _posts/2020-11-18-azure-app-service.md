@@ -3,7 +3,7 @@ layout: post
 title: "Project: Azure App Service Website IAC"
 categories: [general, project]
 tags: [general, project, IAC, ARM Templates, docker]
-fullview: true
+fullview: false
 ---
 
 _An ARM template, docker-compose, and pipeline solution for building and deploying an Azure App Service website._
