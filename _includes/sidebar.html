@@ -37,15 +37,6 @@
 			</a>
 		</li>
 		{% endif %}
-	</ul>
-	<ul id="contact-list-secondary" class="list-unstyled list-inline">
-		{% if site.author.pinterest %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}">
-				<i class="fa fa-pinterest fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
 		{% if site.author.linkedin %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
@@ -53,11 +44,13 @@
 			</a>
 		</li>
 		{% endif %}
+		{% if site.author.linkedin %}
 		<li>
-			<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
-				<i class="fa fa-rss fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="assets/files/James Baldwin - CV.pdf">
+				<i class="fa fa-file-text"></i>
 			</a>
 		</li>
+		{% endif %}
 	</ul>
 </div>
 <!-- sidebar.html end -->
