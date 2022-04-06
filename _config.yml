@@ -18,13 +18,13 @@ defaults:
 
 description: Stylish Jekyll Theme
 author:
-  name: James Baldwin
-  email: james*at*1333ltd.co.uk
+  name: 
+  email: james*at*jamesbaldwin.co.uk
   github: jimmyjamesbaldwin
   twitter: 
   pinterest: 
   linkedin: jamesbaldwinbu
-  bio: My name is James Baldwin and I'm a cloud engineer.Sometimes I go by Jimmy.
+  bio: My name is James Baldwin and I do cloud stuff. I'm too lazy to write content for a website, so until then enjoy this holding page.
   email_md5: 67ebfdfc579c7c7df10fd7d3ab3eedbb
 
 rss_path: 
